@@ -1,56 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="GameManager">
-    <Position X="7" Y="1.75" Width="1.5" />
+    <Position X="11.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\GameManager.cs</FileName>
       <NewMemberFileName>Assets\Scripts\Cavalier.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="HorsemanData" Collapsed="true">
-    <Position X="3.75" Y="1.75" Width="1.5" />
+  <Class Name="HorsemanData">
+    <Position X="3.75" Y="1.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAU=</HashCode>
       <FileName>Assets\Scripts\Data\HorsemanData.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Horseman">
-    <Position X="3.75" Y="3.5" Width="1.5" />
+    <Position X="3.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAQCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Horsemen\Horseman.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="CavalierData" />
+      <Field Name="HorsemanData" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Conquest">
-    <Position X="0.5" Y="5.5" Width="1.5" />
+    <Position X="0.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Horsemen\Conquest.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Death">
-    <Position X="5" Y="5.5" Width="1.5" />
+    <Position X="5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Horsemen\Death.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Famine">
-    <Position X="7.25" Y="5.5" Width="1.5" />
+    <Position X="7.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Horsemen\Famine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="War">
-    <Position X="2.75" Y="5.5" Width="1.5" />
+    <Position X="2.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Horsemen\War.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ennemy">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Ennemy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -2,6 +2,12 @@
 
 public class Horseman : MonoBehaviour
 {
-	public HorsemanData CavalierData;
+	[SerializeField]
+	private HorsemanData HorsemanData;
 	private int HealthPoints;
+
+	private void Start()
+	{
+		HealthPoints = HorsemanData.MaxHealthPoint;
+	}
 }

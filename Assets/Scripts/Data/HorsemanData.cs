@@ -7,5 +7,5 @@ public class HorsemanData : ScriptableObject
 	public float SpeedWalking = 5;
 	public float SpeedRiding = 10;
 
-	//
+	//TODO BRICE SKILL TREE
 }
