@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 6354450302560435046}
   - component: {fileID: 6354450302560435047}
   - component: {fileID: 6354450302560435044}
+  - component: {fileID: 2148336061037838583}
   - component: {fileID: 6354450302560435045}
+  - component: {fileID: 4391066229024339421}
   m_Layer: 0
   m_Name: Famine
   m_TagString: Untagged
@@ -91,8 +93,24 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2148336061037838583
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354450302560435066}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 3
 --- !u!114 &6354450302560435045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,4 +123,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81835cf9d0d531a49aa904564ca2ee85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CavalierData: {fileID: 11400000, guid: baa097f63340d144a85388667a96af57, type: 2}
+  HorsemanData: {fileID: 11400000, guid: baa097f63340d144a85388667a96af57, type: 2}
+--- !u!114 &4391066229024339421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354450302560435066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56baaac0c7821f04d89ad5f4bb97edc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthBar: {fileID: 0}

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(Life))]
 public class Horseman : MonoBehaviour
 {
 	[SerializeField]
@@ -8,8 +9,10 @@ public class Horseman : MonoBehaviour
 	Vector3 pos;  
 	private void Start()
 	{
-		life = new Life();
+		life = GetComponent<Life>();
 		life.HealthPoints = HorsemanData.MaxHealthPoint;
+		life.MaxHealth = HorsemanData.MaxHealthPoint;
+
 		pos = transform.position;
 	}
 	Vector3 move;

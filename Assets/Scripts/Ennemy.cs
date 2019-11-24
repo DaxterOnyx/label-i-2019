@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//[RequireComponent(typeof(Life))]
 public class Ennemy : MonoBehaviour
 {
 	Life life;
@@ -9,7 +10,7 @@ public class Ennemy : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-        
+		life = GetComponent<Life>();
     }
 
     // Update is called once per frame
