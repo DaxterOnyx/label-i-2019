@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dd225681b8de304da98d05ce0047827, type: 3}
   m_Name: Conquest
   m_EditorClassIdentifier: 
-  MaxLive: 100
-  MaxSpeed: 5
+  MaxHealthPoint: 100
+  SpeedWalking: 5
+  SpeedRiding: 30

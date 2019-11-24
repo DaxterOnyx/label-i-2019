@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealthPoint: 100
   SpeedWalking: 5
-  SpeedRiding: 10
+  SpeedRiding: 1

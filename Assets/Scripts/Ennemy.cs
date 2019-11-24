@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Ennemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+	Life life;
+
+	// Start is called before the first frame update
+	void Start()
     {
         
     }
